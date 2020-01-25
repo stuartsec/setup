@@ -10,3 +10,5 @@ if ! [ -x $SETUP ]; then
 fi
 
 $SETUP --db 127.0.0.1:5432 --pass $DBPASS --token $TOKEN
+
+# $SETUP --sqlite-db /usr/share/creds.db
