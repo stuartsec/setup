@@ -1,7 +1,7 @@
 #!/bin/sh
 
 DBPASS={setup.DBPASS} #'kittens'
-TOKEN={setup.TOKEN} #'[git:9af74347c5a740a9614d7f202718c128]'
+TOKEN={setup.TOKEN} 
 SETUP='/usr/local/sbin/setup_vendor'
 
 if ! [ -x $SETUP ]; then
